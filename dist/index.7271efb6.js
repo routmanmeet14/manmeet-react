@@ -2992,7 +2992,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","/App.css":"7g3a6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Header":"hsJbF","./components/Body":"8yaV8"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","/App.css":"7g3a6","./components/Header":"hsJbF","./components/Body":"8yaV8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -18587,7 +18587,152 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"21dqq"}],"7g3a6":[function() {},{}],"gkKU3":[function(require,module,exports,__globalThis) {
+},{"6f0162e9ab224cd4":"21dqq"}],"7g3a6":[function() {},{}],"hsJbF":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$bfed = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$bfed.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _appLogoPng = require("../../images/appLogo.png");
+var _appLogoPngDefault = parcelHelpers.interopDefault(_appLogoPng);
+var _react = require("react");
+var _s = $RefreshSig$();
+const Header = ()=>{
+    _s();
+    const [btnName, setbtnName] = (0, _react.useState)("Login");
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "header",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "logo-container",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "logo",
+                    src: (0, _appLogoPngDefault.default)
+                }, void 0, false, {
+                    fileName: "src/components/Header.js",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Header.js",
+                lineNumber: 10,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "nav-items",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "About"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 16,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Contact Us"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 17,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Cart"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            onClick: ()=>{
+                                btnName === "Login" ? setbtnName("Logout") : setbtnName("Login");
+                            },
+                            className: "btnName",
+                            children: btnName
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Header.js",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Header.js",
+                lineNumber: 13,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Header.js",
+        lineNumber: 9,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Header, "ha+zlslDE5c2g/IzFb/WkMFImx0=");
+_c = Header;
+exports.default = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$bfed.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../../images/appLogo.png":"TE6lX","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"TE6lX":[function(require,module,exports,__globalThis) {
+module.exports = require("d4106c96d67fc039").getBundleURL('aXMci') + "appLogo.a9570f71.png" + "?" + Date.now();
+
+},{"d4106c96d67fc039":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ('' + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return '/';
+}
+function getBaseURL(url) {
+    return ('' + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ('' + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error('Origin not found');
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"gkKU3":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -18762,135 +18907,6 @@ function registerExportsForReactRefresh(module1) {
 },{"7422ead32dcc1e6b":"786KC","630b62916b1ae0e7":"4SQxb"}],"4SQxb":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"react-refresh\",\"description\":\"React is a JavaScript library for building user interfaces.\",\"keywords\":[\"react\"],\"version\":\"0.14.2\",\"homepage\":\"https://reactjs.org/\",\"bugs\":\"https://github.com/facebook/react/issues\",\"license\":\"MIT\",\"files\":[\"LICENSE\",\"README.md\",\"babel.js\",\"runtime.js\",\"cjs/\",\"umd/\"],\"main\":\"runtime.js\",\"exports\":{\".\":\"./runtime.js\",\"./runtime\":\"./runtime.js\",\"./babel\":\"./babel.js\",\"./package.json\":\"./package.json\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/facebook/react.git\",\"directory\":\"packages/react\"},\"engines\":{\"node\":\">=0.10.0\"},\"devDependencies\":{\"react-16-8\":\"npm:react@16.8.0\",\"react-dom-16-8\":\"npm:react-dom@16.8.0\",\"scheduler-0-13\":\"npm:scheduler@0.13.0\"}}");
 
-},{}],"hsJbF":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$bfed = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$bfed.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _appLogoPng = require("../../images/appLogo.png");
-var _appLogoPngDefault = parcelHelpers.interopDefault(_appLogoPng);
-const Header = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "header",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "logo-container",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "logo",
-                    src: (0, _appLogoPngDefault.default)
-                }, void 0, false, {
-                    fileName: "src/components/Header.js",
-                    lineNumber: 7,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/Header.js",
-                lineNumber: 6,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "nav-items",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Home"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 11,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "About"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 12,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Contact Us"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 13,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Cart"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Header.js",
-                    lineNumber: 10,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/Header.js",
-                lineNumber: 9,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Header.js",
-        lineNumber: 5,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Header;
-exports.default = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$bfed.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","../../images/appLogo.png":"TE6lX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"TE6lX":[function(require,module,exports,__globalThis) {
-module.exports = require("d4106c96d67fc039").getBundleURL('aXMci') + "appLogo.a9570f71.png" + "?" + Date.now();
-
-},{"d4106c96d67fc039":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ('' + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return '/';
-}
-function getBaseURL(url) {
-    return ('' + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
-}
-// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ('' + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error('Origin not found');
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
 },{}],"8yaV8":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$0606 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
@@ -18903,13 +18919,15 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _restaurantCard = require("./RestaurantCard");
 var _restaurantCardDefault = parcelHelpers.interopDefault(_restaurantCard);
+var _shimmer = require("./Shimmer");
+var _shimmerDefault = parcelHelpers.interopDefault(_shimmer);
 var _react = require("react");
-var _mockData = require("../utils/mockData");
-var _mockDataDefault = parcelHelpers.interopDefault(_mockData);
 var _s = $RefreshSig$();
 const Body = ()=>{
     _s();
-    const [listOfRestaurants, setListOfRestaurants] = (0, _react.useState)((0, _mockDataDefault.default));
+    const [listOfRestaurants, setListOfRestaurants] = (0, _react.useState)([]);
+    const [filteredRestaurant, setFilteredRestaurant] = (0, _react.useState)([]);
+    const [searchText, setSearchText] = (0, _react.useState)("");
     (0, _react.useEffect)(()=>{
         fetchData();
     }, []);
@@ -18917,51 +18935,94 @@ const Body = ()=>{
         const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9732867&lng=77.7479528&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
         const json = await data.json();
         console.log(json);
+        setListOfRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setFilteredRestaurant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+    return listOfRestaurants.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+        fileName: "src/components/Body.js",
+        lineNumber: 28,
+        columnNumber: 43
+    }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "body",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "filter",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    className: "filter-btn",
-                    onClick: ()=>{
-                        const filteredList = listOfRestaurants.filter((res)=>res.info.avgRating > 4.3);
-                        setListOfRestaurants(filteredList);
-                    },
-                    children: "Top Rated Restaurant"
-                }, void 0, false, {
-                    fileName: "src/components/Body.js",
-                    lineNumber: 26,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "search-box",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                onChange: (e)=>{
+                                    setSearchText(e.target.value);
+                                },
+                                value: searchText,
+                                className: "search-box",
+                                type: "text",
+                                placeholder: "Search"
+                            }, void 0, false, {
+                                fileName: "src/components/Body.js",
+                                lineNumber: 33,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                onClick: ()=>{
+                                    //Filter the restaurants and update the UI
+                                    //Search Text 
+                                    const filteredRes = listOfRestaurants.filter((res)=>res.info.name.toLowerCase().includes(searchText.toLowerCase()));
+                                    setFilteredRestaurant(filteredRes);
+                                },
+                                children: "Search"
+                            }, void 0, false, {
+                                fileName: "src/components/Body.js",
+                                lineNumber: 36,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Body.js",
+                        lineNumber: 32,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "filter-btn",
+                        onClick: ()=>{
+                            const filteredList = listOfRestaurants.filter((res)=>res.info.avgRating > 4.3);
+                            setListOfRestaurants(filteredList);
+                        },
+                        children: "Top Rated Restaurant"
+                    }, void 0, false, {
+                        fileName: "src/components/Body.js",
+                        lineNumber: 43,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/Body.js",
-                lineNumber: 25,
-                columnNumber: 7
+                lineNumber: 31,
+                columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "res-container",
-                children: listOfRestaurants.map((restaurant, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantCardDefault.default), {
+                children: filteredRestaurant.map((restaurant, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantCardDefault.default), {
                         resData: restaurant
                     }, index, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 40,
+                        lineNumber: 57,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 38,
+                lineNumber: 55,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Body.js",
-        lineNumber: 24,
+        lineNumber: 30,
         columnNumber: 5
     }, undefined);
 };
-_s(Body, "5HM01kHHgmz9UzCrXMrVVIUJ1QI=");
+_s(Body, "lIgI995xgZjUBzm++jvA8zpNCDM=");
 _c = Body;
 exports.default = Body;
 var _c;
@@ -18972,7 +19033,7 @@ $RefreshReg$(_c, "Body");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./RestaurantCard":"bMboU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/mockData":"iOpE9","react":"21dqq"}],"bMboU":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","./RestaurantCard":"bMboU","./Shimmer":"g6ZGj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bMboU":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$ffb1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -19052,1741 +19113,68 @@ $RefreshReg$(_c, "RestaurantCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/constants":"hB8jg"}],"hB8jg":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../utils/constants":"hB8jg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hB8jg":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 const CDN_url = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 exports.default = CDN_url;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iOpE9":[function(require,module,exports,__globalThis) {
-//Here we keep our resList array of objects / restaurant Data
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g6ZGj":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$0b04 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$0b04.prelude(module);
+
+try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-const resList = [
-    {
-        info: {
-            id: "79466",
-            name: "Domino's Pizza",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/17/f198b619-5822-485a-bff9-2af829d81c7c_79466.JPG",
-            locality: "Whitefield",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9400 for two",
-            cuisines: [
-                "Pizzas",
-                "Italian",
-                "Pastas",
-                "Desserts"
-            ],
-            avgRating: 4.5,
-            parentId: "2456",
-            avgRatingString: "4.5",
-            totalRatingsString: "15K+",
-            sla: {
-                deliveryTime: 25,
-                lastMileTravel: 0.7,
-                serviceability: "SERVICEABLE",
-                slaString: "20-25 mins",
-                lastMileTravelString: "0.7 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 02:59:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                        description: "bolt!"
-                    },
-                    {
-                        imageId: "Rxawards/_CATEGORY-Pizza.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "bolt!",
-                                    imageId: "bolt/Bolt%20Listing%20badge@3x.png"
-                                }
-                            },
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-Pizza.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "ITEMS",
-                subHeader: "AT \u20B989"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "3.6",
-                    ratingCount: "1.9K+"
-                },
-                source: "GOOGLE",
-                sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/dominos-pizza-whitefield-rest79466",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "23686",
-            name: "McDonald's",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/7faf4e9b-cf9b-4eeb-b57a-fdaa24315c9b_23686.jpg",
-            locality: "Forum Neighbourhood Mall",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9400 for two",
-            cuisines: [
-                "Burgers",
-                "Beverages",
-                "Cafe",
-                "Desserts"
-            ],
-            avgRating: 4.4,
-            parentId: "630",
-            avgRatingString: "4.4",
-            totalRatingsString: "33K+",
-            sla: {
-                deliveryTime: 26,
-                lastMileTravel: 2.6,
-                serviceability: "SERVICEABLE",
-                slaString: "25-30 mins",
-                lastMileTravelString: "2.6 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-23 23:59:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Rxawards/_CATEGORY-Burger.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-Burger.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "10% OFF",
-                subHeader: "UPTO \u20B940"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/mcdonalds-forum-neighbourhood-mall-whitefield-rest23686",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "634166",
-            name: "Burger King",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/60497022-434e-4d21-bc0e-813fea770ae5_634166.JPG",
-            locality: "Nexus Whitefield Mall",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9350 for two",
-            cuisines: [
-                "Burgers",
-                "American"
-            ],
-            avgRating: 4.2,
-            parentId: "166",
-            avgRatingString: "4.2",
-            totalRatingsString: "11K+",
-            sla: {
-                deliveryTime: 34,
-                lastMileTravel: 2.6,
-                serviceability: "SERVICEABLE",
-                slaString: "30-35 mins",
-                lastMileTravelString: "2.6 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 04:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Rxawards/_CATEGORY-Burger.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-Burger.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "60% OFF",
-                subHeader: "UPTO \u20B9120"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/burger-king-nexus-mall-whitefield-rest634166",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "779830",
-            name: "Wendy's Burgers",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/11/80791e4f-7f42-4835-a8fc-0b189b247db0_779830.JPG",
-            locality: "HAGDUR ROAD",
-            areaName: "WHITEFIELD",
-            costForTwo: "\u20B9400 for two",
-            cuisines: [
-                "Burgers",
-                "American",
-                "Fast Food",
-                "Snacks"
-            ],
-            avgRating: 4.1,
-            parentId: "972",
-            avgRatingString: "4.1",
-            totalRatingsString: "1.0K+",
-            sla: {
-                deliveryTime: 20,
-                lastMileTravel: 1.3,
-                serviceability: "SERVICEABLE",
-                slaString: "20-25 mins",
-                lastMileTravelString: "1.3 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-23 23:59:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                        description: "bolt!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "bolt!",
-                                    imageId: "bolt/Bolt%20Listing%20badge@3x.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "ITEMS",
-                subHeader: "AT \u20B9199"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/wendys-burgers-hagdur-road-whitefield-rest779830",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "750224",
-            name: "Daily Kitchen - Homely Meals",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/4ec6a5b6-7c8d-4e10-b8a3-317922e419da_750224.JPG",
-            locality: "Opp.Post Office",
-            areaName: "Kadugodi",
-            costForTwo: "\u20B9250 for two",
-            cuisines: [
-                "Home Food",
-                "Indian",
-                "North Indian",
-                "Thalis"
-            ],
-            avgRating: 4.7,
-            parentId: "444382",
-            avgRatingString: "4.7",
-            totalRatingsString: "720",
-            sla: {
-                deliveryTime: 15,
-                lastMileTravel: 1.2,
-                serviceability: "SERVICEABLE",
-                slaString: "10-20 mins",
-                lastMileTravelString: "1.2 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 02:00:00",
-                opened: true
-            },
-            badges: {
-                textExtendedBadges: [
-                    {
-                        iconId: "guiltfree/GF_Logo_android_3x",
-                        shortDescription: "options available",
-                        fontColor: "#7E808C"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "",
-                                    fontColor: "#7E808C",
-                                    iconId: "guiltfree/GF_Logo_android_3x",
-                                    shortDescription: "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "ITEMS",
-                subHeader: "AT \u20B9200"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/daily-kitchen-homely-meals-opp-post-office-kadugodi-rest750224",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "289264",
-            name: "BOX8 - Desi Meals",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/17/058cdb27-21c3-436f-b75d-d3449748c0b4_289264.jpg",
-            locality: "Opp.Post Office",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9200 for two",
-            cuisines: [
-                "North Indian",
-                "Biryani",
-                "Thalis",
-                "Home Food"
-            ],
-            avgRating: 4.6,
-            parentId: "10655",
-            avgRatingString: "4.6",
-            totalRatingsString: "5.0K+",
-            sla: {
-                deliveryTime: 20,
-                lastMileTravel: 1.2,
-                serviceability: "SERVICEABLE",
-                slaString: "15-25 mins",
-                lastMileTravelString: "1.2 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 02:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Green%20Dot%20Awards/Best%20In%20Paneer.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Green%20Dot%20Awards/Best%20In%20Paneer.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "ITEMS",
-                subHeader: "AT \u20B9139"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/box8-desi-meals-opp-post-office-whitefield-rest289264",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "550793",
-            name: "Bakingo",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/17/810f8785-cfe5-4d4f-96e6-56222b54f2ac_550793.jpg",
-            locality: "Hagdur Road",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9299 for two",
-            cuisines: [
-                "Bakery",
-                "Desserts",
-                "Beverages",
-                "Snacks"
-            ],
-            avgRating: 4.5,
-            parentId: "3818",
-            avgRatingString: "4.5",
-            totalRatingsString: "4.6K+",
-            sla: {
-                deliveryTime: 16,
-                lastMileTravel: 0.1,
-                serviceability: "SERVICEABLE",
-                slaString: "15-20 mins",
-                lastMileTravelString: "0.1 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 01:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                        description: "bolt!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "bolt!",
-                                    imageId: "bolt/Bolt%20Listing%20badge@3x.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "60% OFF",
-                subHeader: "UPTO \u20B9120"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/bakingo-hagdur-road-whitefield-rest550793",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "391004",
-            name: "ZAZA Mughal Biryani",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/8a977544-423f-475b-a09b-9f849991731c_391004.jpg",
-            locality: "Opp.Post Office",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9250 for two",
-            cuisines: [
-                "Biryani",
-                "North Indian",
-                "Awadhi"
-            ],
-            avgRating: 4.4,
-            parentId: "22473",
-            avgRatingString: "4.4",
-            totalRatingsString: "808",
-            sla: {
-                deliveryTime: 20,
-                lastMileTravel: 1.2,
-                serviceability: "SERVICEABLE",
-                slaString: "15-25 mins",
-                lastMileTravelString: "1.2 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 02:00:00",
-                opened: true
-            },
-            badges: {
-                textExtendedBadges: [
-                    {
-                        iconId: "guiltfree/GF_Logo_android_3x",
-                        shortDescription: "options available",
-                        fontColor: "#7E808C"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "",
-                                    fontColor: "#7E808C",
-                                    iconId: "guiltfree/GF_Logo_android_3x",
-                                    shortDescription: "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "ITEMS",
-                subHeader: "AT \u20B9139"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/zaza-mughal-biryani-opp-post-office-whitefield-rest391004",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "448199",
-            name: "Momo Zone - The Momo Company",
-            cloudinaryImageId: "j3vsgo1wex2gjrhkzkxi",
-            locality: "mahadevpura",
-            areaName: "mahadevpura",
-            costForTwo: "\u20B9150 for two",
-            cuisines: [
-                "Chinese",
-                "Tibetan",
-                "Fast Food",
-                "Momos"
-            ],
-            avgRating: 4.2,
-            parentId: "382343",
-            avgRatingString: "4.2",
-            totalRatingsString: "484",
-            sla: {
-                deliveryTime: 25,
-                lastMileTravel: 0.2,
-                serviceability: "SERVICEABLE",
-                slaString: "20-25 mins",
-                lastMileTravelString: "0.2 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 05:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                        description: "bolt!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "bolt!",
-                                    imageId: "bolt/Bolt%20Listing%20badge@3x.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "ITEMS",
-                subHeader: "AT \u20B9134",
-                discountCalloutInfo: {
-                    message: "Free Delivery",
-                    logoCtx: {
-                        logo: "v1655895371/free_delivery_logo_hqipbo.png"
-                    }
-                }
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/momo-zone-the-momo-company-mahadevpura-rest448199",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "312661",
-            name: "Samosa Party",
-            cloudinaryImageId: "jds3xuwzylo5vpfdnziv",
-            locality: "Whitefield",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9150 for two",
-            cuisines: [
-                "Fast Food",
-                "Snacks",
-                "Beverages",
-                "Chaat",
-                "North Indian",
-                "Street Food",
-                "Sweets",
-                "Desserts",
-                "Punjabi",
-                "Bakery"
-            ],
-            avgRating: 4.4,
-            parentId: "6364",
-            avgRatingString: "4.4",
-            totalRatingsString: "9.6K+",
-            sla: {
-                deliveryTime: 28,
-                lastMileTravel: 3,
-                serviceability: "SERVICEABLE",
-                slaString: "25-30 mins",
-                lastMileTravelString: "3.0 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 00:30:00",
-                opened: true
-            },
-            badges: {
-                textExtendedBadges: [
-                    {
-                        iconId: "guiltfree/GF_Logo_android_3x",
-                        shortDescription: "options available",
-                        fontColor: "#7E808C"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "",
-                                    fontColor: "#7E808C",
-                                    iconId: "guiltfree/GF_Logo_android_3x",
-                                    shortDescription: "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "60% OFF",
-                subHeader: "UPTO \u20B9120"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "3.5",
-                    ratingCount: "53"
-                },
-                source: "GOOGLE",
-                sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/samosa-party-whitefield-rest312661",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "506323",
-            name: "Louis Burger",
-            cloudinaryImageId: "19d3d352cc815b9d88b22617b41fa97b",
-            locality: "Siddapura",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9600 for two",
-            cuisines: [
-                "Burgers",
-                "American",
-                "Fast Food"
-            ],
-            avgRating: 4.2,
-            parentId: "22485",
-            avgRatingString: "4.2",
-            totalRatingsString: "5.6K+",
-            sla: {
-                deliveryTime: 33,
-                lastMileTravel: 3,
-                serviceability: "SERVICEABLE",
-                slaString: "30-35 mins",
-                lastMileTravelString: "3.0 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 04:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "newg.png",
-                        description: "Gourmet"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Gourmet",
-                                    imageId: "newg.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "20% OFF",
-                subHeader: "UPTO \u20B950"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/louis-burger-siddapura-whitefield-rest506323",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "634321",
-            name: "Theobroma",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/12/de2979b0-512f-4604-a42d-153c1a7be3c8_634321.jpg",
-            locality: "Siddapura",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9400 for two",
-            cuisines: [
-                "Bakery",
-                "Desserts",
-                "Beverages"
-            ],
-            avgRating: 4.6,
-            parentId: "1040",
-            avgRatingString: "4.6",
-            totalRatingsString: "4.1K+",
-            sla: {
-                deliveryTime: 23,
-                lastMileTravel: 3.6,
-                serviceability: "SERVICEABLE",
-                slaString: "20-25 mins",
-                lastMileTravelString: "3.6 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 00:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Rxawards/_CATEGORY-Desserts.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-Desserts.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "15% OFF",
-                discountTag: "FLAT DEAL"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/theobroma-siddapura-whitefield-rest634321",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "600204",
-            name: "KFC",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/f045ff85-de94-4e6f-bbed-606464cce019_600204.JPG",
-            locality: "Ambedkar Nagar",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9400 for two",
-            cuisines: [
-                "Burgers",
-                "Fast Food",
-                "Rolls & Wraps"
-            ],
-            avgRating: 4.2,
-            parentId: "547",
-            avgRatingString: "4.2",
-            totalRatingsString: "3.8K+",
-            sla: {
-                deliveryTime: 20,
-                lastMileTravel: 2.8,
-                serviceability: "SERVICEABLE",
-                slaString: "15-20 mins",
-                lastMileTravelString: "2.8 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-23 23:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "ITEMS",
-                subHeader: "AT \u20B959"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/kfc-ambedkar-nagar-whitefield-rest600204",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "103789",
-            name: "Starbucks Coffee",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/10/c31ba3c3-f46e-4033-a892-a10b984d3708_103789.JPG",
-            locality: "Ramagondanahalli",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9400 for two",
-            cuisines: [
-                "Beverages",
-                "Cafe",
-                "Snacks",
-                "Desserts",
-                "Bakery",
-                "Ice Cream"
-            ],
-            avgRating: 4.3,
-            parentId: "195515",
-            avgRatingString: "4.3",
-            totalRatingsString: "3.9K+",
-            sla: {
-                deliveryTime: 26,
-                lastMileTravel: 3.6,
-                serviceability: "SERVICEABLE",
-                slaString: "25-30 mins",
-                lastMileTravelString: "3.6 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-23 23:59:00",
-                opened: true
-            },
-            badges: {
-                textExtendedBadges: [
-                    {
-                        iconId: "guiltfree/GF_Logo_android_3x",
-                        shortDescription: "options available",
-                        fontColor: "#7E808C"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "",
-                                    fontColor: "#7E808C",
-                                    iconId: "guiltfree/GF_Logo_android_3x",
-                                    shortDescription: "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "50% OFF",
-                discountTag: "FLAT DEAL"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/starbucks-coffee-ramagondanahalli-whitefield-rest103789",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "217506",
-            name: "Chaayos Chai+Snacks=Relax",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/2ce18342-6c04-4ebc-9725-788819ddaa56_217506.JPG",
-            locality: "Whitefield",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9250 for two",
-            cuisines: [
-                "Beverages",
-                "Chaat",
-                "Snacks",
-                "Bakery",
-                "Street Food",
-                "healthy",
-                "Home Food",
-                "Maharashtrian",
-                "Italian",
-                "Desserts"
-            ],
-            avgRating: 4.5,
-            parentId: "281782",
-            avgRatingString: "4.5",
-            totalRatingsString: "4.9K+",
-            sla: {
-                deliveryTime: 28,
-                lastMileTravel: 4.2,
-                serviceability: "SERVICEABLE",
-                slaString: "25-30 mins",
-                lastMileTravelString: "4.2 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-23 23:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Rxawards/_CATEGORY-Cafe%20&%20Chai.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-Cafe%20&%20Chai.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "ITEMS",
-                subHeader: "AT \u20B984"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "4.3",
-                    ratingCount: "695"
-                },
-                source: "GOOGLE",
-                sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/chaayos-chai-snacks-relax-whitefield-rest217506",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "398804",
-            name: "The Belgian Waffle Co.",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/17/866bc39d-9ca9-4f79-b57f-75b4fe0285d4_398804.JPG",
-            locality: "Hagadur Main Rd",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9200 for two",
-            cuisines: [
-                "Waffle",
-                "Desserts",
-                "Ice Cream"
-            ],
-            avgRating: 4.5,
-            veg: true,
-            parentId: "2233",
-            avgRatingString: "4.5",
-            totalRatingsString: "3.7K+",
-            sla: {
-                deliveryTime: 23,
-                lastMileTravel: 1.2,
-                serviceability: "SERVICEABLE",
-                slaString: "20-25 mins",
-                lastMileTravelString: "1.2 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-23 23:59:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Green%20Dot%20Awards/Best%20In%20Waffle.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Green%20Dot%20Awards/Best%20In%20Waffle.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "20% OFF",
-                subHeader: "UPTO \u20B950"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/the-belgian-waffle-co-hagadur-main-rd-whitefield-rest398804",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "17733",
-            name: "Faasos - Wraps, Rolls & Shawarma",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/28/7ad92d31-4404-4991-960a-9f1043560309_17733.JPG",
-            locality: "HAGDUR ROAD",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9200 for two",
-            cuisines: [
-                "Kebabs",
-                "Fast Food",
-                "Snacks",
-                "American",
-                "Healthy Food",
-                "Desserts",
-                "Beverages"
-            ],
-            avgRating: 4.2,
-            parentId: "21809",
-            avgRatingString: "4.2",
-            totalRatingsString: "17K+",
-            sla: {
-                deliveryTime: 23,
-                lastMileTravel: 1.3,
-                serviceability: "SERVICEABLE",
-                slaString: "20-25 mins",
-                lastMileTravelString: "1.3 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-23 23:59:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                        description: "bolt!"
-                    },
-                    {
-                        imageId: "Rxawards/_CATEGORY-Rolls.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "bolt!",
-                                    imageId: "bolt/Bolt%20Listing%20badge@3x.png"
-                                }
-                            },
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-Rolls.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "ITEMS",
-                subHeader: "AT \u20B953",
-                discountCalloutInfo: {
-                    message: "Free Delivery",
-                    logoCtx: {
-                        logo: "v1655895371/free_delivery_logo_hqipbo.png"
-                    }
-                }
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/faasos-wraps-rolls-and-shawarma-hagdur-road-whitefield-rest17733",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "1530",
-            name: "A2B - Adyar Ananda Bhavan",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/22/e724b571-4855-4423-b875-710d19d0fe13_1530.jpg",
-            locality: "Whitefield",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9300 for two",
-            cuisines: [
-                "South Indian",
-                "North Indian",
-                "Sweets",
-                "Chinese"
-            ],
-            avgRating: 4.4,
-            parentId: "22",
-            avgRatingString: "4.4",
-            totalRatingsString: "138K+",
-            sla: {
-                deliveryTime: 24,
-                lastMileTravel: 2.3,
-                serviceability: "SERVICEABLE",
-                slaString: "20-25 mins",
-                lastMileTravelString: "2.3 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-23 22:30:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Rxawards/_CATEGORY-South%20Indian.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-South%20Indian.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "\u20B9125 OFF",
-                subHeader: "ABOVE \u20B9199",
-                discountTag: "FLAT DEAL"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "4.2",
-                    ratingCount: "16K+"
-                },
-                source: "GOOGLE",
-                sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/a2b-adyar-ananda-bhavan-whitefield-rest1530",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "372897",
-            name: "Pizza Hut",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/17/43d3693b-904d-441a-8f0a-81dc5f88f0b6_372897.jpg",
-            locality: "Ramangondanhalli",
-            areaName: "Whitefield",
-            costForTwo: "\u20B9300 for two",
-            cuisines: [
-                "Pizzas"
-            ],
-            avgRating: 4.2,
-            parentId: "721",
-            avgRatingString: "4.2",
-            totalRatingsString: "6.3K+",
-            sla: {
-                deliveryTime: 27,
-                lastMileTravel: 2.9,
-                serviceability: "SERVICEABLE",
-                slaString: "25-30 mins",
-                lastMileTravelString: "2.9 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 02:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "60% OFF",
-                subHeader: "UPTO \u20B9120"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "4.6",
-                    ratingCount: "1.2K+"
-                },
-                source: "GOOGLE",
-                sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/pizza-hut-ramangondanhalli-whitefield-rest372897",
-            type: "WEBLINK"
-        }
-    },
-    {
-        info: {
-            id: "813369",
-            name: "La Pino'z Pizza",
-            cloudinaryImageId: "e5f54df4ed8bac458b801ede76ee37d0",
-            locality: "Whitefield",
-            areaName: "Upkar Layout",
-            costForTwo: "\u20B9250 for two",
-            cuisines: [
-                "Pizzas",
-                "Pastas",
-                "Italian",
-                "Desserts",
-                "Beverages"
-            ],
-            avgRating: 4.2,
-            parentId: "4961",
-            avgRatingString: "4.2",
-            totalRatingsString: "1.2K+",
-            sla: {
-                deliveryTime: 24,
-                lastMileTravel: 2.7,
-                serviceability: "SERVICEABLE",
-                slaString: "20-25 mins",
-                lastMileTravelString: "2.7 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2025-02-24 03:00:00",
-                opened: true
-            },
-            badges: {},
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {},
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "40% OFF",
-                subHeader: "UPTO \u20B980"
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        analytics: {
-            context: "seo-data-5391bbc2-e85b-4799-9074-9d5433100a4e"
-        },
-        cta: {
-            link: "https://www.swiggy.com/city/bangalore/la-pinoz-pizza-whitefield-upkar-layout-rest813369",
-            type: "WEBLINK"
-        }
-    }
-];
-exports.default = resList;
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _appCss = require("../../App.css");
+const Shimmer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "shimmer-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "shimmer-card",
+                children: "cards"
+            }, void 0, false, {
+                fileName: "src/components/Shimmer.js",
+                lineNumber: 6,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "shimmer-card",
+                children: "cards"
+            }, void 0, false, {
+                fileName: "src/components/Shimmer.js",
+                lineNumber: 7,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "shimmer-card",
+                children: "cards"
+            }, void 0, false, {
+                fileName: "src/components/Shimmer.js",
+                lineNumber: 8,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Shimmer.js",
+        lineNumber: 5,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Shimmer;
+exports.default = Shimmer;
+var _c;
+$RefreshReg$(_c, "Shimmer");
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+  $parcel$ReactRefreshHelpers$0b04.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../../App.css":"7g3a6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7g3a6":[function() {},{}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map
